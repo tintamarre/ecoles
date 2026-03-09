@@ -4,7 +4,7 @@
       <div class="mt-8 md:order-1 md:mt-0">
         <p class="text-left text-xs leading-5 text-gray-500">
           Réalisé sous licence libre. <br>
-          <a href="https://github.com/data-cfwb/ecoles">Code source</a><br>
+          <a href="https://github.com/tintamarre/ecoles">Code source</a><br>
           Données mises à jour le {{ metadata.last_updated }} —
           <a href="https://www.odwb.be/explore/dataset/fwb-age-fichier-signaletique-des-etablissements-d-enseignement-de-la-federation-">Source officielle (ODWB)</a><br>
           <span class="italic">Initiative personnelle de Martin Erpicum — Projet non officiel</span>
