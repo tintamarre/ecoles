@@ -610,7 +610,7 @@ export default {
     },
     async getEcoles() {
       this.data_loaded = false;
-      const response = await fetch('/data/ecoles.json');
+      const response = await fetch(`${process.env.BASE_URL}data/ecoles.json`);
       this.original_ecoles = await response.json();
       this.prepareProperties(this.original_ecoles);
       this.defineFilters();

@@ -1,7 +1,7 @@
 <template>
   <div>
     <img
-      src="/assets/logo_fwb_loading.svg"
+      :src="`${publicPath}assets/logo_fwb_loading.svg`"
       alt="Fédération Wallonie-Bruxelles"
       class="w-1/4 mx-auto"
     >
@@ -10,3 +10,13 @@
     </p>
   </div>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      publicPath: process.env.BASE_URL
+    };
+  }
+};
+</script>
