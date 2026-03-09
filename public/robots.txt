@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ecoles.datawb.be/sitemap.xml
+Sitemap: https://www.tintamarre.be/ecoles/sitemap.xml
